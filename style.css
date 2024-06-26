@@ -1,0 +1,11 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h4 {
+  margin-bottom: 5px;
+}
+#result1, #result2, #result3 {
+  color: #ea1a1a;
+  font-weight: bold;
+}

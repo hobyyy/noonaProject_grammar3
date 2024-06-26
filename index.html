@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h3>javascript 3일차</h3>
+
+    <h4>
+      문제 1) 유저가 입력하는 숫자가 0인지 음수인지 양수인지 판단하는 프로그램
+    </h4>
+    <input type="number" id="input1" />
+    <button onclick="sign()">확인</button>
+    <div id="result1"></div>
+
+    <h4>문제 2) 레포트 점수에 따라 등급을 매기는 프로그램</h4>
+    <input type="number" id="input2" />
+    <button onclick="grade_classifier()">확인</button>
+    <div id="result2"></div>
+
+    <h4>
+      문제 3) 우리 회사 지원자가 사용가능한 스킬로 합격과 탈락을 정하는 프로그램
+    </h4>
+    <div>*여러개의 스킬은 쉼표(,)로 분리해서 입력해주세요. ex) java, python</div>
+    <input type="text" id="input3" />
+    <button onclick="recruitment_classifier()">확인</button>
+    <div id="result3"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
